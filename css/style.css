@@ -2025,8 +2025,9 @@ float: left;
 width: 60px;
 height: auto;
 }
-.devicon-div{
-    font-size: 80px !important;
+.devicon-style{
+    font-size: 50px !important;
     text-align: center;
+    color: rgb(0, 0, 0); 
   }
   
