@@ -534,7 +534,21 @@ color:#fff;
     margin: 0 0 35px 0; 
 }
 	
+.service_block .points{
+	position: relative;
+	list-style-type: none;
+	padding: 5px 0 5px 30px;
+}
 
+.service_block .points:before{
+	content: "\f058";
+	position: absolute;
+	font-family: FontAwesome;
+	font-size: 1.125em;
+	color: #ffffff;
+	left: 0px;
+	top: 3px;
+}
 
 /* Latest Work
 ---------------------------------*/
@@ -874,6 +888,7 @@ background-position-y: 70px;
 	left: 0px;
 	top: 3px;
 }
+
 
 .about-us-link a:first-child{
 	margin-left: 0;
