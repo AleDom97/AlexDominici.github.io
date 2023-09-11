@@ -1434,7 +1434,12 @@ border: 1px solid #f21326;
     text-decoration: none;
     border-radius: 80px;
 }
-
+.link a{
+    color: white;
+}
+.link a:hover{
+    color: red;
+}
 .twitter a:hover {
     color: #55acee;
 }
