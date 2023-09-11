@@ -1260,7 +1260,15 @@ margin-bottom: 5px;
 .team_box ul li a.fa-facebook:hover {
     color: #3b5998;
 }
-
+.team_box ul li a.fa-linkedin:hover {
+    color: #0a66c2;
+}
+.team_box ul li a.fa-instagram:hover {
+    color: #FD1D1D;
+}
+.team_box ul li a.fa-github:hover {
+    color: #FFFFFF;
+}
 .team_box ul li a.fa-pinterest:hover {
     color: #cb2026;
 }
@@ -1434,7 +1442,15 @@ border: 1px solid #f21326;
 .facebook a:hover {
     color: #3b5998;
 }
-
+.linkedin a:hover {
+    color: #3b5998;
+}
+.instagram a:hover {
+    color: #FD1D1D;
+}
+.github a:hover {
+    color: #FFFFFF;
+}
 .pinterest a:hover {
     color: #cb2026;
 }
