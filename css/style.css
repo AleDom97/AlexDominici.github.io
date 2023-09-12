@@ -1503,6 +1503,7 @@ border: 1px solid #f21326;
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     margin-left: 10px;
+    margin-top: -5px;
     font-size: 13px;
   }
 .input-btn {    
