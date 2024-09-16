@@ -1260,7 +1260,15 @@ margin-bottom: 5px;
 .team_box ul li a.fa-facebook:hover {
     color: #3b5998;
 }
-
+.team_box ul li a.fa-linkedin:hover {
+    color: #0a66c2;
+}
+.team_box ul li a.fa-instagram:hover {
+    color: #FD1D1D;
+}
+.team_box ul li a.fa-github:hover {
+    color: #FFFFFF;
+}
 .team_box ul li a.fa-pinterest:hover {
     color: #cb2026;
 }
@@ -1408,8 +1416,8 @@ border: 1px solid #f21326;
 }
 
 .social_links li {
-    float: left;
-    margin-right: 4px;
+    display: inline-block;
+    margin-left: 4px;
 }
 
 .social_links li a {
@@ -1426,7 +1434,6 @@ border: 1px solid #f21326;
     text-decoration: none;
     border-radius: 80px;
 }
-
 .twitter a:hover {
     color: #55acee;
 }
@@ -1434,7 +1441,15 @@ border: 1px solid #f21326;
 .facebook a:hover {
     color: #3b5998;
 }
-
+.linkedin a:hover {
+    color: #3b5998;
+}
+.instagram a:hover {
+    color: #FD1D1D;
+}
+.github a:hover {
+    color: #FFFFFF;
+}
 .pinterest a:hover {
     color: #cb2026;
 }
@@ -1477,7 +1492,20 @@ border: 1px solid #f21326;
     overflow: auto;
     
 }
-
+.resumeBtn{
+    color:  #f21326;
+    background-color: transparent;
+    border: 1px solid #f21326;
+    border-radius: 3px;
+    padding: 0.75rem 1rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 13px;
+  }
 .input-btn {    
     width: 175px;
     height: 50px;
@@ -1485,7 +1513,7 @@ border: 1px solid #f21326;
     background: #f21326;
     border-radius: 3px;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
     border: 0px;
@@ -1496,7 +1524,7 @@ border: 1px solid #f21326;
 
 .input-btn:hover {
     background: #fff;
-    color: #222;
+    color: #f21326;
 }
 
 /* Footer
